@@ -1,0 +1,18 @@
+streamlit
+
+opencv-python==4.11.0.86
+
+torchvision==0.20.1
+Pillow==9.5.0
+easyocr==1.7.0
+numpy==1.26.4
+ultralytics
+pandas==2.2.2
+#gpu enabled torch and torchvision
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+--index-url https://download.pytorch.org/whl/cu121
+torchvision==0.20.1+cu121
+#if you dont have gpu install this versions of torch and torchvision
+#torch==2.5.1
+#torchvision==0.20.1
